@@ -1,0 +1,27 @@
+.entrada{
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtotal{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    r
+}
+
+th{
+    color: rgb(102, 100, 100);
+}
+.space{
+    padding: 5px;
+}
+.bottons{
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+}

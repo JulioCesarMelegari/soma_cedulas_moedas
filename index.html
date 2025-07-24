@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="#">
+
+  <title>Offcanvas template for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/offcanvas.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand mr-auto mr-lg-0" href="#">FECHAMENTO DE CAIXA - LYNX</a>
+  </nav>
+
+
+  <main role="main" class="container">
+
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h1 class="border-bottom border-gray pb-2 mb-0" style="text-align: center;">
+        FECHAMENTO DE CAIXA
+      </h1>
+      <br>
+
+      <div class="container border border-dark rounded">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">CÉDULAS</th>
+              <th scope="col">QTIDADE</th>
+              <th scope="col">MOEDAS</th>
+              <th scope="col">QTIDADE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">R$ 2,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="6" id="dois">
+              </td>
+              <th scope="row">R$ 0,05</th>
+              <td>
+                <input type="text" class="entrada" tabindex="1" id="cincocent">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 5,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="7" id="cinco">
+              </td>
+              <th scope="row">R$ 0,10</th>
+              <td>
+                <input type="text" class="entrada" tabindex="2" id="dezcent">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 10,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="8" id="dez">
+              </td>
+              <th scope="row">R$ 0,25</th>
+              <td>
+                <input type="text" class="entrada" tabindex="3" id="vintecincocent">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 20,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="9" id="vinte">
+              </td>
+              <th scope="row">R$ 0,50</th>
+              <td>
+                <input type="text" class="entrada" tabindex="4" id="cinquentacent">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 50,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="10" id="cinquenta">
+              </td>
+              <th scope="row">R$ 1,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="5" id="um">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 100,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="11" id="cem">
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">R$ 200,00</th>
+              <td>
+                <input type="text" class="entrada" tabindex="12" id="duzentos">
+              </td>
+              <td></td>
+              <td></td>
+          </tbody>
+        </table>
+      </div>
+      <div class="space"></div>
+      <div class="container border border-dark rounded">
+        <table class="table table-striped">
+
+          <tbody>
+            <tr>
+              <th scope="row">SUBTOTAL</th>
+              <td>
+                <input type="text" class="subtotal" id="subtotal2" disabled>
+              </td>
+              <th scope="row">SUBTOTAL</th>
+              <td>
+                <input type="text" class="subtotal" id="subtotal1" disabled>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="space"></div>
+      <div class="container border border-dark rounded">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <th scope="row">TOTAL</th>
+              <td>
+                <input type="text" class="subtotal" id="total"disabled>
+              </td>
+              <th scope="row"></th>
+              <td>
+                <div class="container border border-dark rounded bottons">
+                  <button type="button" class="btn-primary" id="btnLimpar">Limpar</button>
+                  <button type="button"class="btn-success" id="btnCalcular">Calcular</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/holder.min.js"></script>
+  <script src="offcanvas.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
