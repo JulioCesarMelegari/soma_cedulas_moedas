@@ -36,7 +36,3 @@ Este projeto é uma interface web simples e funcional para controle de **fechame
 4. Clique em **Calcular** para obter o total em dinheiro.
 5. Clique em **Limpar** para zerar os campos.
 
----
-
-## 🛠️ Estrutura do Projeto
-
